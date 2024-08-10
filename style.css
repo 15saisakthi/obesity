@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.container img{
+    margin-right: 20px;
+}
+.border {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px;
+    padding: 20px;
+    width: 450px;
+    height: 250px;
+    background-color: olive;
+    color: white;
+    margin-left:150px;
+    margin-top: 100px;
+
+}
+.border1 {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px;
+    padding: 20px;
+    width: 450px;
+    height: 250px;
+    background-color: rgb(10, 161, 215);
+    color: white;
+    margin-top: 100px;
+
+}
+.border2 {
+    position: relative; /* Make the container a positioned element */
+    border: 2px;
+    padding: 20px;
+    width: 950px;
+    height: 200px;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 30px;
+    border-color: rgb(189, 7, 7);
+    background-color: rgb(189, 7, 7);
+}
+
+.border2 img {
+    position: absolute; /* Position the image within the container */
+    top: 20px;          /* Position the image at the top */
+    right: 20px;        /* Position the image at the right */
+}
+.border3 {
+    position: relative; /* Make the container a positioned element */
+    border: 2px;
+    padding: 20px;
+    width: 950px;
+    height: 160px;
+    margin-left: 150px;
+    margin-right: 200px;
+    background-color: rgb(10, 161, 215);
+    margin-top: 30px;
+    
+}
+
+.border3 img {
+    position: absolute; /* Position the image within the container */
+    top: 10px;          /* Position the image at the top */
+    left: 300px;   
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.text-left {
+    max-width: 45%; /* Adjust the width to control spacing */
+}
+
+.text-right {
+    text-align: right;
+    max-width: 50%; /* Adjust the width to control spacing */
+}
+.border4 {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px;
+    padding: 20px;
+    width: 450px;
+    height: 180px;
+    background-color: olive;
+    color: white;
+    margin-left:150px;
+    margin-top: 30px;
+    background-image:url(fries.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.border5 {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px;
+    padding: 20px;
+    width: 450px;
+    height: 180px;
+    background-color: rgb(10, 161, 215);
+    color: white;
+    margin-top: 30px;
+    background-image: url(juice.png);
+    background-repeat: no-repeat;
+
+
+}
+.border6 {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px;
+    padding: 20px;
+    width: 950px;
+    height: 90px;
+    background-color: rgb(10, 161, 215);
+    color: white;
+    margin-top: 30px;
+    background-image: url(tv.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 150px;
+
+
+}
+.border7 {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px;
+    padding: 20px;
+    width: 950px;
+    height: 100px;
+    background-color: olive;
+    color: white;
+    margin-top: 30px;
+    background-image: url(cycle.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 150px;
+
+}
+.border8 {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px;
+    padding: 20px;
+    width: 450px;
+    height: 180px;
+    background-color: olive;
+    color: white;
+    margin-left:150px;
+    margin-top: 30px;
+    background-image: url(cash.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+
+}
+.border9 {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px;
+    padding: 20px;
+    width: 450px;
+    height: 180px;
+    background-color: rgb(10, 161, 215);
+    color: white;
+    margin-top: 30px;
+
+}
